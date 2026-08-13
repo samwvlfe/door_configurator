@@ -8,6 +8,7 @@ export default function DoorConfigurator() {
   const [history, setHistory] = useState([1]); // Track visited questions for back button
   const [currentDoorId, setCurrentDoorId] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [showWelcome, setShowWelcome] = useState(true);
 
   // Load JSON data
   useEffect(() => {
@@ -58,6 +59,26 @@ export default function DoorConfigurator() {
 
   return (
     <div className="configurator-container">
+      {/* Welcome Modal */}
+      {showWelcome && (
+        <div
+          className="welcome-overlay"
+          onClick={() => setShowWelcome(false)}
+        >
+          <div className="welcome-modal" onClick={(e) => e.stopPropagation()}>
+            <button
+              className="welcome-close"
+              onClick={() => setShowWelcome(false)}
+              aria-label="Close"
+            >
+              &times;
+            </button>
+            <h2>Welcome to The Dockstar Door Selector</h2>
+            <p>Answer the questions to find the door that best fits your opening</p>
+          </div>
+        </div>
+      )}
+
       {/* Header */}
       <header className="configurator-header">
         <div style={{ display: 'flex'}}>
@@ -65,7 +86,7 @@ export default function DoorConfigurator() {
                 <img src="/img/ds-trans.png" alt="Dockstar Logo" />
             </div>
             <div className="title">
-                <h1>Door Configurator</h1>
+                <h1>Door Selector</h1>
             </div>
         </div>
         <nav className="breadcrumb">
@@ -111,22 +132,20 @@ export default function DoorConfigurator() {
         {/* Recommendations at bottom */}
         {currentQuestion && currentQuestion.recs && (
             <div className="recommendations">
-                <div style={{display: 'flex'}}>
-                    <p className="recs-label">Possible matches:</p>
-                    <div className="recs-grid">
-                    {currentQuestion.recs.map(recId => {
-                        const recDoor = doors.find(d => d.id === recId);
-                        return recDoor ? (
-                        
-                        <div key={recId} className="rec-card">
-                            <a href={recDoor.link} target="_blank" rel="noopener noreferrer">
-                                <img src={recDoor.imageUrl} alt={recDoor.name} />
-                                <p>{recDoor.name}</p>
-                            </a>
-                        </div>
-                        ) : null;
-                    })}
+                <p className="recs-label">Possible matches:</p>
+                <div className="recs-grid">
+                {currentQuestion.recs.map(recId => {
+                    const recDoor = doors.find(d => d.id === recId);
+                    return recDoor ? (
+                    
+                    <div key={recId} className="rec-card">
+                        <a href={recDoor.link} target="_blank" rel="noopener noreferrer">
+                            <img src={recDoor.imageUrl} alt={recDoor.name} />
+                            <p>{recDoor.name}</p>
+                        </a>
                     </div>
+                    ) : null;
+                })}
                 </div>
             </div>
         )}

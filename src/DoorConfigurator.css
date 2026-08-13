@@ -5,6 +5,86 @@
   background-color: #f5f5f5;
 }
 
+/* Welcome Modal */
+.welcome-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0);
+  animation: overlay-fade-in 0.6s ease forwards;
+}
+
+.welcome-modal {
+  position: relative;
+  background: white;
+  border-radius: 8px;
+  padding: 40px 50px;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  filter: blur(8px);
+  transform: scale(0.85);
+  animation: materialize 0.7s cubic-bezier(0.22, 1, 0.36, 1) 0.15s forwards;
+}
+
+.welcome-modal h2 {
+  margin: 0 0 12px 0;
+  font-size: 26px;
+  color: #333;
+}
+
+.welcome-modal p {
+  margin: 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.welcome-close {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 30px;
+  line-height: 1;
+  cursor: pointer;
+  color: #999;
+}
+
+.welcome-close:hover {
+  color: #333;
+}
+
+@keyframes overlay-fade-in {
+  from {
+    background: rgba(0, 0, 0, 0);
+  }
+  to {
+    background: rgba(0, 0, 0, 0.45);
+  }
+}
+
+@keyframes materialize {
+  0% {
+    opacity: 0;
+    filter: blur(8px);
+    transform: scale(0.85);
+  }
+  60% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0px);
+    transform: scale(1);
+  }
+}
+
 /* Header */
 .configurator-header {
   background-color: #333;
@@ -143,6 +223,7 @@
 
 /* Recommendations */
 .recommendations {
+  display: flex;
   margin-top: 40px;
   padding-top: 20px;
   border-top: 1px solid #ddd;
@@ -253,11 +334,56 @@
     flex-direction: column;
   }
 
+  .configurator-main.no-recs {
+    margin-top: 0;
+  }
+  .configurator-main {
+    padding-top: 20px;
+    width: auto;
+  }
   .answer-button {
-    width: 100%;
+    flex: 1 1 auto;
+    padding: 50px 20px;
+  }
+  .question-view{
+    gap: 30px;
   }
 
-  .recs-grid {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  .door-result {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px
+  }
+  .door-image {
+    width: 200px;
+  }
+  .recommendations {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .rec-card a{
+    flex-direction: row;
+  }
+  .rec-card img {
+    width: 30%;
+    height: 100px;
+  }
+  .rec-card p{
+    margin: 0 0 0 10px;
+    font-size: 14px;
+  }
+  .recs-label {
+    margin: 0 0 10px 0;
+  }
+  .door-info h2 {
+    font-size: 22px;
+  }
+  .door-image{
+    width: 170px;
+  }
+  .door-description {
+    font-size: 16px;
   }
 }
