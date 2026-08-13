@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "text": "Temp Above Freezing?",
+        "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp",
+        "noNext": 2,
+        "yesNext": 3
+    },
+    {
+        "id": 2,
+        "text": "Humidity Present?",
+        "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp",
+        "noNext": "frigo2",
+        "yesNext": "frigo2_air"
+    },
+    {
+        "id": 3,
+        "text": "Interior Opening?",
+        "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp",
+        "noNext": 4,
+        "yesNext": 5
+    },
+    {
+        "id": 4,
+        "text": "Air Conditioned Interior?",
+        "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp",
+        "noNext": "dynamicroll_Bdrive",
+        "yesNext": 6
+    },
+    {
+        "id": 5,
+        "text": "Clean Room Rated?",
+        "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp",
+        "noNext": 7,
+        "yesNext": 6
+    },
+    {
+        "id": 6,
+        "text": "Mounting space D.O.W. + 18in?",
+        "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp",
+        "recs": ["dynamicroll_Bdrive_curtain"],
+        "noNext": "dynamicroll_CB125",
+        "yesNext": "dynamicroll_CB230"
+    },
+    {
+        "id": 7,
+        "text": "Washdown Requirement?",
+        "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp",
+        "noNext": 9,
+        "yesNext": 8
+    },
+    {
+        "id": 8,
+        "text": "Stainless Steel Required?",
+        "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp",
+        "noNext": "dynamicroll_food_PE",
+        "yesNext": "dynamicroll_food_stainless"
+    },
+    {
+        "id": 9,
+        "text": "Cooler Temp?",
+        "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp",
+        "noNext": 10,
+        "yesNext": "dynamicroll_125_curtain"
+    },
+    {
+        "id": 10,
+        "text": "Wind Pressure Concern?",
+        "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp",
+        "noNext": "dynamicroll_125",
+        "yesNext": "dynamicroll_Bdrive"
+    }
+]

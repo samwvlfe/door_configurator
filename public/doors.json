@@ -1,0 +1,68 @@
+[
+  {
+    "id": "frigo2",
+    "name": "Frigo 2",
+    "description": "desc",
+    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp"
+  },
+  {
+    "id": "frigo2_air",
+    "name": "Frigo 2 Air",
+    "description": "desc",
+    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp"
+  },
+  {
+    "id": "dynamicroll_Bdrive",
+    "name": "Dynamicroll B-Drive",
+    "description": "desc",
+    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp"
+  },
+  {
+    "id": "dynamicroll_Bdrive_curtain",
+    "name": "Dynamicroll B-Drive w/ Insulated Curtain",
+    "description": "desc",
+    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp"
+  },
+  {
+    "id": "dynamicroll_CB125",
+    "name": "Dynamicroll CB125",
+    "description": "desc",
+    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp"
+  },
+  {
+    "id": "dynamicroll_CB230",
+    "name": "Dynamicroll CB230",
+    "description": "desc",
+    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp"
+  },
+  {
+    "id": "dynamicroll_food_PE",
+    "name": "Dynamicroll Food PE",
+    "description": "desc",
+    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp"
+  },
+  {
+    "id": "dynamicroll_food_stainless",
+    "name": "Dynamicroll Food Stainless",
+    "description": "desc",
+    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp"
+  },
+  {
+    "id": "dynamicroll_125_curtain",
+    "name": "Dynamicroll 125 w/ Insulated Curtain",
+    "description": "desc",
+    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp"
+  },
+  {
+    "id": "dynamicroll_125",
+    "name": "Dynamicroll 125",
+    "description": "desc",
+    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp"
+  },
+  {
+    "id": "dynamicroll_Bdrive",
+    "name": "Dynamicroll B-Drive",
+    "description": "desc",
+    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp"
+  }
+]
