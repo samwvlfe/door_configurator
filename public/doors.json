@@ -2,67 +2,78 @@
   {
     "id": "frigo2",
     "name": "Frigo 2",
-    "description": "desc",
-    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp"
+    "description": "The DynamicRoll® Frigo 2 is a high-performance freezer door engineered for extreme cold environments. It features a double curtain design that traps air between layers for superior thermal insulation. Its rapid open-and-close speeds, full perimeter seal, and self-reinserting curtain prevent frost buildup and dramatically reduce energy loss in high-traffic cold storage areas.",
+    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/2025/07/DynamicRoll-Frigo-2-HSD-2.jpg",
+    "link": "https://dockstarindustrial.com/products/high-speed-doors-2/controlled-environment/frigo-2/"
   },
   {
     "id": "frigo2_air",
     "name": "Frigo 2 Air",
-    "description": "desc",
-    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp"
+    "description": "The DynamicRoll® Frigo 2 Air High Speed Door is a cutting-edge solution for cold storage and temperature-sensitive environments. It features a unique dual-curtain design with an intelligent air barrier that prevents ice buildup and minimizes thermal exchange. Combining an insulated with a full perimeter seal, it has the ability to maintain climate control in areas with extreme temperature differences.",
+    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/2025/07/DynamicRoll-Frigo-2-Air-HSD-2.jpg",
+    "link": "https://dockstarindustrial.com/products/high-speed-doors-2/controlled-environment/frigo-2-air/"
   },
   {
     "id": "dynamicroll_Bdrive",
     "name": "Dynamicroll B-Drive",
-    "description": "desc",
-    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp"
+    "description": "The DynamicRoll® B-Drive Fabric Roll-Up Door is a high-performance, all-purpose belt-driven door that offers versatility across a wide range of industries and environments. It offers multiple activation options and excels in adaptability.",
+    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/2025/07/Dynamicroll-HSD-4.jpg",
+    "link": "https://dockstarindustrial.com/products/high-speed-doors-2/industrial-fabric/b-drive/"
   },
   {
     "id": "dynamicroll_Bdrive_curtain",
     "name": "Dynamicroll B-Drive w/ Insulated Curtain",
-    "description": "desc",
-    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp"
+    "description": "The DynamicRoll® B-Drive Fabric Roll-Up Door is a high-performance, all-purpose belt-driven door that offers versatility across a wide range of industries and environments. It offers multiple activation options and excels in adaptability.",
+    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/2025/07/Dynamicroll-HSD-4.jpg",
+    "link": "https://dockstarindustrial.com/products/high-speed-doors-2/industrial-fabric/b-drive/"
   },
   {
     "id": "dynamicroll_CB125",
     "name": "Dynamicroll CB125",
-    "description": "desc",
-    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp"
+    "description": "The DynamicRoll® CB 125 high-speed, fabric roll-up door specifically designed for cleanroom environments, providing airtight sealing, fast operation, and contamination control to maintain strict hygiene and temperature stability.",
+    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/2025/07/DynamicRoll-CB-125-HSD-3.jpg",
+    "link": "https://dockstarindustrial.com/products/high-speed-doors-2/controlled-environment/dynamicroll-cb-125/"
   },
   {
     "id": "dynamicroll_CB230",
     "name": "Dynamicroll CB230",
-    "description": "desc",
-    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp"
+    "description": "The DynamicRoll® CB 230 is a high-speed cleanroom door designed for interlock systems and includes a built-in escape function for enhanced safety. Compared to the CB 125, it features a soft bottom edge for flexible floor sealing and is ideal for multi-door cleanroom environments requiring pressure control and quick access.",
+    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/2025/07/DynamicRoll-CB-230-HSD-3.jpg",
+    "link": "https://dockstarindustrial.com/products/high-speed-doors-2/controlled-environment/dynamicroll-cb-230/"
   },
   {
     "id": "dynamicroll_food_PE",
     "name": "Dynamicroll Food PE",
-    "description": "desc",
-    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp"
+    "description": "The DynamicRoll® Food PE is a high-speed door engineered for food processing environments with a chemical-resistant polyethylene frame. Its full-perimeter seal minimizes air exchange and help deter cross-contamination between zones. With FDA-approved, washable materials and a compact, low-maintenance build, it’s the ideal solution for clean, efficient, and compliant food facility operations.",
+    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/2025/07/DynamicRoll-Food-PE-HSD-2.jpg",
+    "link": "https://dockstarindustrial.com/products/high-speed-doors-2/controlled-environment/dynamicroll-food-pe/"
   },
   {
     "id": "dynamicroll_food_stainless",
     "name": "Dynamicroll Food Stainless",
-    "description": "desc",
-    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp"
+    "description": "The DynamicRoll® Food Stainless High Speed Door is built for environments that demand frequent wash downs. The slanted barrel hood and one-piece cover prevents build up of water, dust, and debris. It excels in harsh, humid, or salty conditions while maintaining a tight perimeter seal with a fast, self-reinserting operation. It’s the ideal choice when durability, hygiene, and long-term performance are essential in demanding applications.",
+    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/2025/07/DynamicRoll-Food-Stainless-HSD-2.jpg",
+    "link": "https://dockstarindustrial.com/products/high-speed-doors-2/controlled-environment/dynamicroll-food-stainless/"
   },
   {
     "id": "dynamicroll_125_curtain",
     "name": "Dynamicroll 125 w/ Insulated Curtain",
-    "description": "desc",
-    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp"
+    "description": "The DynamicRoll® Fabric Roll-Up Door is a high-performance, all-purpose solution built for versatility across a wide range of industries and environments. It offers multiple activation options and excels in adaptability.",
+    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/2025/07/DynamicRoll-CB-125-HSD-3.jpg",
+    "link": "https://dockstarindustrial.com/products/high-speed-doors-2/industrial-fabric/dynamicroll/"
   },
   {
     "id": "dynamicroll_125",
     "name": "Dynamicroll 125",
-    "description": "desc",
-    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp"
+    "description": "The DynamicRoll® Fabric Roll-Up Door is a high-performance, all-purpose solution built for versatility across a wide range of industries and environments. It offers multiple activation options and excels in adaptability.",
+    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/2025/07/Dynamicroll-HSD-4.jpg",
+    "link": "https://dockstarindustrial.com/products/high-speed-doors-2/industrial-fabric/dynamicroll/"
   },
   {
     "id": "dynamicroll_Bdrive",
     "name": "Dynamicroll B-Drive",
-    "description": "desc",
-    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/woocommerce-placeholder.webp"
+    "description": "The DynamicRoll® B-Drive Fabric Roll-Up Door is a high-performance, all-purpose belt-driven door that offers versatility across a wide range of industries and environments. It offers multiple activation options and excels in adaptability.",
+    "imageUrl": "https://dockstarindustrial.com/wp-content/uploads/2025/07/Dynamicroll-HSD-4.jpg",
+    "link": "https://dockstarindustrial.com/products/high-speed-doors-2/industrial-fabric/b-drive/"
   }
 ]

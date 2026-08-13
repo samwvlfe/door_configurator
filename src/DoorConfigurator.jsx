@@ -60,20 +60,31 @@ export default function DoorConfigurator() {
     <div className="configurator-container">
       {/* Header */}
       <header className="configurator-header">
-        <div className="logo">Your Logo</div>
+        <div style={{ display: 'flex'}}>
+            <div className="logo">
+                <img src="/img/ds-trans.png" alt="Dockstar Logo" />
+            </div>
+            <div className="title">
+                <h1>Door Configurator</h1>
+            </div>
+        </div>
         <nav className="breadcrumb">
-          <span>Step {history.length} of 10</span>
+          <span>Step {history.length}</span>
         </nav>
       </header>
 
       {/* Main Content */}
-      <main className="configurator-main">
+      <main className={`configurator-main${currentQuestion && currentQuestion.recs ? '' : ' no-recs'}`}>
         {currentDoorId && currentDoor ? (
           // DOOR RESULT VIEW
           <div className="door-result">
-            <img src={currentDoor.imageUrl} alt={currentDoor.name} className="door-image" />
+            <a href={currentDoor.link} target="_blank" rel="noopener noreferrer">
+                <img src={currentDoor.imageUrl} alt={currentDoor.name} className="door-image" />
+            </a>
             <div className="door-info">
-              <h2>{currentDoor.name}</h2>
+              <a href={currentDoor.link} target="_blank" rel="noopener noreferrer">
+                <h2>{currentDoor.name}</h2>
+              </a>
               <p className="door-description">{currentDoor.description}</p>
             </div>
           </div>
@@ -82,7 +93,7 @@ export default function DoorConfigurator() {
           <div className="question-view">
             <div className="question-section">
               <h2 className="question-text">{currentQuestion.text}</h2>
-              <img src={currentQuestion.imageUrl} alt="question" className="question-image" />
+              {/* <img src={currentQuestion.imageUrl} alt="question" className="question-image" /> */}
             </div>
 
             {/* Yes/No Buttons */}
@@ -99,20 +110,25 @@ export default function DoorConfigurator() {
 
         {/* Recommendations at bottom */}
         {currentQuestion && currentQuestion.recs && (
-          <div className="recommendations">
-            <p className="recs-label">Possible matches:</p>
-            <div className="recs-grid">
-              {currentQuestion.recs.map(recId => {
-                const recDoor = doors.find(d => d.id === recId);
-                return recDoor ? (
-                  <div key={recId} className="rec-card">
-                    <img src={recDoor.imageUrl} alt={recDoor.name} />
-                    <p>{recDoor.name}</p>
-                  </div>
-                ) : null;
-              })}
+            <div className="recommendations">
+                <div style={{display: 'flex'}}>
+                    <p className="recs-label">Possible matches:</p>
+                    <div className="recs-grid">
+                    {currentQuestion.recs.map(recId => {
+                        const recDoor = doors.find(d => d.id === recId);
+                        return recDoor ? (
+                        
+                        <div key={recId} className="rec-card">
+                            <a href={recDoor.link} target="_blank" rel="noopener noreferrer">
+                                <img src={recDoor.imageUrl} alt={recDoor.name} />
+                                <p>{recDoor.name}</p>
+                            </a>
+                        </div>
+                        ) : null;
+                    })}
+                    </div>
+                </div>
             </div>
-          </div>
         )}
       </main>
 
